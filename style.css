@@ -21,7 +21,8 @@ body {
 input {
     height: 20px;
     border-radius:20px;
-    width: 30%;
+    width: 55%;
+    background-color:rgb(237, 232, 232)
 }
 .sidebar {
     grid-column: 1 / 1;
@@ -47,13 +48,23 @@ input {
     font-weight: bold;
     text-align: left;
     padding-left: 10px;
-   
+
 }
+   
 ul, li {
     list-style-type: none;
     padding: 1em;
     margin: 0;
     gap: 20px;
+}
+.super-cool-project, .less-cool-project, .impossible-app, .easy-peasy-app, .ad-blocker, .money-maker {
+     height: 30vh;
+    border-left: orange 1vw solid;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    justify-content: center;
+    align-content:center;
 }
 button {
     background-color:blue;
@@ -61,15 +72,15 @@ button {
     border-radius: 20px;
     border: none;
     height: 4vh;
-    width: 7vw;
+    width: 6vw;
     font-weight: bold;
 }
-textarea {
-    height: 30vh;
-    border-left: orange 1vw solid;
-    border-radius: 10px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+.buttons {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
 }
+
 .announcements{
     border-color:black;
     border-style: solid;
