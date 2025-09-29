@@ -37,7 +37,7 @@ input {
 .main {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .1fr 1fr 1fr 1fr;
     gap: 2em;
     padding:2em;
 }
@@ -65,7 +65,7 @@ button {
     font-weight: bold;
 }
 textarea {
-    height: 20vh;
+    height: 30vh;
     border-left: orange 1vw solid;
     border-radius: 10px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
